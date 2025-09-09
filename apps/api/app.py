@@ -13,7 +13,8 @@ Run locally:
 
 from fastapi import FastAPI, Request, status
 from fastapi.responses import JSONResponse, Response
-from pydantic import BaseModel, BaseSettings
+from pydantic import BaseModel
+from pydantic_settings import BaseSettings
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 from starlette.middleware.gzip import GZipMiddleware
 
